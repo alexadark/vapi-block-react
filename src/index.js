@@ -11,9 +11,4 @@ export { VapiBlock };
 // Expose the component globally
 window.VapiBlock = VapiBlock;
 
-// Render the component if the root element exists
-const container = document.getElementById('root');
-if (container) {
-  const root = createRoot(container);
-  root.render(<VapiBlock />);
-}
+// Remove the rendering logic from here
