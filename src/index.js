@@ -6,6 +6,8 @@ import App from './App';
 
 import VapiBlock from './components/VapiBlock';
 
+export { VapiBlock };
+
 // Expose the component globally
 window.VapiBlock = VapiBlock;
 
